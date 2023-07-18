@@ -31,8 +31,13 @@
 
 }
 
+.Joke-display{
+  display: inline-block;
+  width: 80%;
+  
+}
+
 .button {
   display: inline-block;
-
   margin: 0px 30px; /* Adjust the spacing between buttons as needed */
 }

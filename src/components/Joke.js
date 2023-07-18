@@ -10,7 +10,6 @@ function JokeFetcher() {
     const fetchJokes = async () => {
       const limit = 1;
       const apiKey = 'f98XKUsGd3kTs2Ii2D6C8g==PhiLRuJuWFEZoBlr';
-    //   var result;
   
       try {
         const response = await fetch(`https://api.api-ninjas.com/v1/jokes?limit=${limit}`, {
