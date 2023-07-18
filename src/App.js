@@ -11,8 +11,13 @@ function App() {
         <h3>Joke Generator Using React and Joke API</h3>
         <img src={logo} className="App-logo" alt="logo" />
           <div className = "Joke-button">
-            <Joke className = "button"/>
-            <JokeCs className = "button"/>
+            <div className = "button">
+              <Joke />
+            </div>
+            <div className = "button">
+              <JokeCs />
+            </div>
+            
           </div>
       </header>
     </div>
