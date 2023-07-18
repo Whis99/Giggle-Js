@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './chibi.gif';
 import './App.css';
+import Joke from "./components/Joke";
+import JokeCs from "./components/JokeCs";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1 className = "App-name">Giggle JS ^~^</h1>
+        <h3>Joke Generator Using React and Joke API</h3>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <div className = "Joke-button">
+            <Joke className = "button"/>
+            <JokeCs className = "button"/>
+          </div>
       </header>
     </div>
   );
